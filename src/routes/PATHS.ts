@@ -1,8 +1,6 @@
-const PATHS = {
+export const PATHS = {
   registration: '/registration',
   init: '/init',
   login: '/login',
-  logout: '/logout',
+  logout: '/logout'
 } as const;
-
-export default PATHS;

@@ -9,7 +9,11 @@
   "scripts": {
     "watch": "tsc --watch --noEmit",
     "lint": "biome lint --fix",
-    "postinstall": "tsc"
+    "prepack": "tsc",
+    "prepare": "tsc",
+    "preinstall": "tsc",
+    "postinstall": "tsc",
+    "postpack": "tsc"
   },
   "repository": {
     "type": "git",
